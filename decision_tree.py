@@ -6,8 +6,8 @@ from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 
 # reading data and separating into features and labels
-dataset = pd.read_csv(r"D:/Usman/Data Science/The Sparks Foundation/"
-                      r"Task 6/Iris.csv")
+dataset = pd.read_csv(r"D:/Usman/Data Science/Iris.csv")
+
 print(dataset.head())
 x = dataset.drop('Species', axis=1)
 y = dataset["Species"]
